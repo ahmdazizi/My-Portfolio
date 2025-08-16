@@ -14,7 +14,7 @@ function App() {
         <p className="text-base mb-6 opacity-50 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, vitae molestiae! Nesciunt harum est voluptatibus? Perspiciatis quis eaque aperiam quisquam illum dolores, non enim voluptas, nesciunt similique voluptate, vel accusantium?</p>
         <div className="flex items-center gap-2 sm:gap-4">
           <a href="" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Download CV <i className="ri-download-line ri-lg"></i></a>
-          <a href=""  className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek <i class="ri-arrow-down-line ri-lg"></i></a>
+          <a href=""  className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i></a>
         </div>
       </div>
       <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" />
@@ -85,6 +85,32 @@ function App() {
       </div>
     </div>
     {/* end proyek */}
+
+    {/* Kontak */}
+    <div className="kontak mt-32 sm:p-10 p-0">
+      <h1 className="text-4xl mb-2 font-bold text-center">Kontak</h1>
+      <p className="text-base/loose mb-10 text-center opacity-50">Mari terhubung dengan saya</p>
+      <form action="https://formsubmit.co/azizi153.97@gmail.com" method="POST" className="bg-zinc-800 p-10 rounded-md sm:w-fit w-full mx-auto" autoComplete="off">
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-2">
+              <label className="font-semibold">Nama Lengkap</label>
+              <input type="text" name="nama" placeholder="Masukkan Nama ..." className="border border-zinc-500 p-2 rounded-md"required/>
+            </div>
+            <div className="flex flex-col gap-2">
+            <label className="font-semibold">Email</label>
+              <input type="email" name="email" placeholder="Masukkan Email ..." className="border border-zinc-500 p-2 rounded-md"required/>
+            </div>
+            <div className="flex flex-col gap-2">
+            <label className="font-semibold">Pesan</label>
+              <textarea name="pesan" placeholder="Masukkan Pesan ..." rows="7" cols="45" className="border border-zinc-500 p-2 rounded-md"required></textarea>
+            </div>
+           <div className="text-center">
+            <button type="submit" className="p-3 bg-violet-700 hover:bg-violet-600 rounded-lg w-full cursor-pointer border border-zinc-600 font-semibold">Kirim Pesan</button>
+           </div>
+          </div>
+      </form>
+    </div>
+    {/* end Kontak */}
     </>
   )
 }
