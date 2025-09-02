@@ -149,7 +149,7 @@ function App() {
                     </div>
                 </div>
                 <div className="">
-                <a href="https://www.linkedin.com/in/ahmad-azizi-77290124b/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ahmdazizi" target="_blank" rel="noopener noreferrer">
                   <i className="ri-arrow-right-s-line text-zinc-800 sm:text-xl text-lg"></i>
                 </a>
                 </div>
@@ -168,7 +168,7 @@ function App() {
                     </div>
                 </div>
                 <div className="">
-                <a href="https://github.com/ahmdazizi" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ahmad-azizi-77290124b/" target="_blank" rel="noopener noreferrer">
                   <i className="ri-arrow-right-s-line text-zinc-800 sm:text-xl text-lg"></i>
                 </a>
                 </div>
