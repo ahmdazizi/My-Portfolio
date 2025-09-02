@@ -15,14 +15,14 @@ function Footer() {
         <a href="#proyek">Proyek</a>
       </div>
       <div className="flex items-center gap-3">
-        <a href="">
+        <a href="https://github.com/ahmdazizi">
           <i className='ri-github-fill ri-2x'></i>
         </a>
-        <a href="">
-          <i className='ri-instagram-fill ri-2x'></i>
-        </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/ahmad-azizi-77290124b/">
           <i className='ri-linkedin-fill ri-2x'></i>
+        </a>
+        <a href="https://www.instagram.com/ahmadazizii_/">
+          <i className='ri-instagram-fill ri-2x'></i>
         </a>
       </div>
     </div>
