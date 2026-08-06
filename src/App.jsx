@@ -118,7 +118,7 @@ function App() {
         {[...Array(16)].map((_, i) => (
           <div
             key={i}
-            className="w-2 h-2 rounded-full bg-zinc-400"
+            className="w-2 h-2 rounded-full bg-zinc-400 dark:bg-white dark:opacity-100"
           />
         ))}
       </div>
@@ -355,7 +355,7 @@ function App() {
       </div>
       <div>
         <h3 className="text-xl font-semibold">Pendidikan </h3>
-        <p className="mt-2 text-gray-500 leading-relaxed">
+        <p className="mt-2 text-gray-500 leading-relaxed dark:text-white">
           D3 Teknologi Informasi
           <br />
           Universitas Brawijaya
@@ -369,7 +369,7 @@ function App() {
 
       <div>
         <h3 className="text-xl font-semibold">IPK</h3>
-        <p className="mt-2 text-gray-500 leading-relaxed">
+        <p className="mt-2 text-gray-500 leading-relaxed dark:text-white">
           3.95/4.00
         </p>
       </div>
@@ -382,7 +382,7 @@ function App() {
 
       <div>
         <h3 className="text-xl font-semibold">Domisili</h3>
-        <p className="mt-2 text-gray-500 leading-relaxed">
+        <p className="mt-2 text-gray-500 leading-relaxed dark:text-white">
           Jakarta Selatan, DKI Jakarta
         </p>
       </div>
@@ -394,7 +394,7 @@ function App() {
 
       <div>
         <h3 className="text-xl font-semibold">Status</h3>
-        <p className="mt-2 text-gray-500 leading-relaxed">
+        <p className="mt-2 text-gray-500 leading-relaxed dark:text-white">
           Open To Work
         </p>
       </div>
@@ -611,7 +611,7 @@ function App() {
               slidesPerView='auto'
             >
                     {certificates.map((item, index) => (
-                      <SwiperSlide key={index} className="!w-[320px] ">
+                      <SwiperSlide key={index} className="md:!w-[320px] ">
 
                       <div className="rounded-xl bg-white p-2 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-lg">
                     
@@ -620,7 +620,7 @@ function App() {
                           <img
                             src={item.image}
                             alt={item.title}
-                            className="h-40 w-full rounded-lg object-cover"
+                            className="md:h-40 h-30 w-full rounded-lg object-cover"
                           />
                     
                           <span className="absolute right-2 top-2 rounded-full bg-emerald-100 px-2 py-1 text-[10px] text-emerald-700">
