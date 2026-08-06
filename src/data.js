@@ -1,9 +1,11 @@
-import HeroImage from "/assets/hero-img.png";
+import HeroImage from "/assets/hero.jpg";
 import icon from "/assets/icon.png";
+import image from "/assets/hero-img.png";
 
 const DataImage = {
   HeroImage,
   icon,
+  image
 };
 
 export default DataImage;
@@ -94,52 +96,166 @@ export const listTools = [
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.png";
+import Proyek1_1 from "/assets/proyek/proyek1_1.png";
+import Proyek1_2 from "/assets/proyek/proyek1_2.png";
+import Proyek1_3 from "/assets/proyek/proyek1_3.png";
 import Proyek2 from "/assets/proyek/proyek2.png";
+import Proyek2_1 from "/assets/proyek/proyek2_1.png";
+import Proyek2_2 from "/assets/proyek/proyek2_2.png";
+import Proyek2_3 from "/assets/proyek/proyek2_3.png";
+import Proyek2_4 from "/assets/proyek/proyek2_4.png";
 import Proyek3 from "/assets/proyek/proyek3.png";
+import Proyek3_1 from "/assets/proyek/proyek3_1.png";
+import Proyek3_2 from "/assets/proyek/proyek3_2.png";
+import Proyek3_3 from "/assets/proyek/proyek3_3.png";
+import Proyek3_4 from "/assets/proyek/proyek3_4.png";
 import Proyek4 from "/assets/proyek/proyek4.png";
+import Proyek4_1 from "/assets/proyek/proyek4_1.png";
+import Proyek4_2 from "/assets/proyek/proyek4_2.png";
+import Proyek4_3 from "/assets/proyek/proyek4_3.png";
 import Proyek5 from "/assets/proyek/proyek5.png";
+import Proyek5_1 from "/assets/proyek/proyek5_1.jpg";
+import Proyek5_2 from "/assets/proyek/proyek5_2.jpg";
+import Proyek5_3 from "/assets/proyek/proyek5_3.jpg";
+import Proyek5_4 from "/assets/proyek/proyek5_4.png";
+import Proyek5_5 from "/assets/proyek/proyek5_5.png";
 
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
+    thumbnail: Proyek1,
+    gambar: [ Proyek1_1, Proyek1_2, Proyek1_3],
     nama: "Website Jual Beli Barang",
-    desk: "Proyek ini dibuat untuk memenuhi tugas mata kuliah Algoritma dan Pemrograman pada semester 2. Aplikasi ini saya kembangkan menggunakan Java GUI Swing",
+    desk: "Proyek aplikasi yang dibangun menggunakan Java GUI Swing untuk mengimplementasikan konsep algoritma, logika pemrograman, dan Object-Oriented Programming (OOP). Meskipun dikembangkan sebagai proyek perkuliahan, aplikasi ini menunjukkan kemampuan saya dalam merancang antarmuka pengguna, mengelola alur aplikasi, dan menerapkan struktur kode yang terorganisir.",
     tools: ["Java", "Figma", "MySQL"],
+    fitur: [
+      "Login Penjual dan Pembeli",
+      "Manajemen Produk",
+      "Pesan produk",
+      "Riwayat Pesanan"
+    ],
+    github:"", 
+    gdrive:"",
     dad: "200",
   },
   {
     id: 2,
-    gambar: Proyek2,
+    thumbnail: Proyek2,
+    gambar:[ Proyek2_1, Proyek2_2, Proyek2_3, Proyek2_4],
     nama: "Landing Page Creanomic 2023",
     desk: "Proyek ini merupakan pengembangan website yang digunakan untuk mempublikasikan informasi seputar Creative Economy and Innovation Centre 2023. ",
     tools: ["HTML", "CSS", "Javascript", "TailwindCSS"],
+    fitur: [
+      "Informasi Acara",
+      "Informasi Pendaftaran",
+      "Informasi Guest Star",
+      "Informasi Workshop",
+      "Informasi Lomba",
+      "Informasi Sponsor",
+      "Informasi Merchandise"
+    ],
+    github: "https://github.com/ahmdazizi/Creanomic2023.git",
+    gdrive:"",
     dad: "300",
   },
   {
     id: 3,
-    gambar: Proyek3,
+    thumbnail: Proyek3,
+    gambar: [ Proyek3_1, Proyek3_2, Proyek3_3, Proyek3_4],
     nama: "Web Pengaduan Fakultas",
-    desk: "Proyek ini merupakan website pengaduan Fakultas Vokasi untuk memfasilitasi mahasiswa dalam menyampaikan aspirasi, saran, dan laporan secara terstruktur.",
+    desk: "Website pengaduan Fakultas Vokasi yang dikembangkan menggunakan Laravel untuk memfasilitasi mahasiswa dalam menyampaikan aspirasi, saran, dan laporan. Sistem dilengkapi dengan autentikasi pengguna, manajemen data pengaduan, serta dashboard administrasi untuk mempermudah pengelolaan laporan.",
     tools: ["HTML", "CSS", "Javascript", "TailwindCSS", "PHP", "MySQL"],
+    fitur: [
+      "Login Mahasiswa,Admin,Super Admin",
+      "Manajemen Pengaduan",
+      "Dashboard Super Admin",
+      "Dashboard Admin",
+    ],
+    gdrive: "https://drive.google.com/file/d/1NkJRFV_rvbwgGLZTu9Hj_2C8py7KaPBg/view?usp=drive_link",
+    github: "",
     dad: "400",
   },
   {
     id: 4,
-    gambar: Proyek4,
+    thumbnail: Proyek4,
+    gambar: [Proyek4_1, Proyek4_2, Proyek4_3],
     nama: "Company Profile FKUB",
-    desk: "Proyek ini berupa website company profile Fakultas Kedokteran Universitas Brawijaya yang bertujuan sebagai media informasi dan publikasi fakultas.",
+    desk: "Website company profile Fakultas Kedokteran Universitas Brawijaya yang dikembangkan menggunakan WordPress sebagai CMS. Website berfungsi sebagai media informasi dan publikasi resmi dengan desain responsif, navigasi yang intuitif, serta kemudahan dalam pengelolaan konten.",
     tools: ["Wordpress", "Figma"],
+    fitur: [
+      "Informasi Fakultas",
+      "Informasi Jurusan",
+      "Informasi Alumni",
+      "Informasi Lowongan Kerja",
+      "Informasi Akademik"
+    ],
+    gdrive: "https://fk.ub.ac.id/",
+    github: "",
     dad: "500",
   },
   {
     id: 5,
-    gambar: Proyek5,
+    thumbnail: Proyek5,
+    gambar: [ Proyek5_1, Proyek5_2, Proyek5_3, Proyek5_4, Proyek5_5],
     nama: "Website Pemesanan Online",
-    desk: "Proyek ini berupa website pemesanan online untuk Baking With Amanda yang memudahkan pelanggan dalam memesan berbagai produk cake secara praktis.",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap","Laravel", "MySQL"],
+    desk: "Baking With Amanda – Pemesanan Online merupakan website berbasis Laravel dan Bootstrap yang dikembangkan untuk mempermudah proses pemesanan produk bakery secara online. Aplikasi ini dilengkapi dengan fitur katalog produk, keranjang belanja, pemesanan, dan manajemen pesanan admin, serta memiliki desain responsif sehingga dapat diakses dengan optimal di berbagai perangkat.",
+    tools: ["HTML", "CSS", "Javascript", "Bootsrap","Laravel", "MySQL","Midtrans"],
+    fitur: [
+      "Login Admin",
+      "Manajemen Produk",
+      "Keranjang Belanja",
+      "Checkout menggunakan Midtrans",
+      "Riwayat Pesanan"
+    ],
+    github: "https://github.com/ahmdazizi/Baking-With-Amanda.git",
+    gdrive:"https://drive.google.com/file/d/1bGufz5lv8yjICl0yrI5p2Lpih4ZF_-_D/view?usp=sharing",
     dad: "600",
   },
   
+];
+export const certificates = [
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+  {
+    title: "React Developer Basic",
+    image: Proyek1,
+    issuer: "Dicoding",
+    date: "20 Apr 2024",
+  },
+ 
 ];

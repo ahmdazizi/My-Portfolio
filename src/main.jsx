@@ -8,8 +8,8 @@ import 'remixicon/fonts/remixicon.css'
 import Footer from './component/Footer.jsx'
 import PreLoader from './component/PreLoader.jsx'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css'; 
+
 AOS.init();
 
 createRoot(document.getElementById('root')).render(
