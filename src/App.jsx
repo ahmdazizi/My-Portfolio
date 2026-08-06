@@ -258,10 +258,10 @@ function App() {
         <div
           className="
             absolute
-            bottom-6
+            bottom-1
             md:bottom-10
 
-            -right-16
+            -right-6
             md:-right-10
 
             w-[320px]
