@@ -214,48 +214,35 @@ export const listProyek = [
   },
   
 ];
+
+import sertifikat_it from "/assets/sertifikat/Serifikasi_IT.jpg";
+import sertifikat_bnsp from "/assets/sertifikat/Sertifikat_bnsp.png";
+import sertifikat_maganghub from "/assets/sertifikat/Sertifikat_MagangHub.jpg";
+import sertifikat_msib from "/assets/sertifikat/Sertifikat_msib.jpg";
+
 export const certificates = [
   {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
+    title: "Sertifikasi IT",
+    image: sertifikat_it,
+    issuer: "Microsoft Office",
+    date: "12 Des 2024",
+  },
+  {
+    title: "Junior Web Developer",
+    image: sertifikat_bnsp,
+    issuer: "BNSP",
+    date: "25 Jan 2025",
+  },
+  {
+    title: "MSIB",
+    image: sertifikat_msib,
+    issuer: "Kampus Merdeka",
     date: "20 Apr 2024",
   },
   {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
+    title: "Magang Hub",
+    image: sertifikat_maganghub,
+    issuer: "Kemnaker",
+    date: "24 Mei 2026",
   },
-  {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
-  },
-  {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
-  },
-  {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
-  },
-  {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
-  },
-  {
-    title: "React Developer Basic",
-    image: Proyek1,
-    issuer: "Dicoding",
-    date: "20 Apr 2024",
-  },
- 
 ];

@@ -54,7 +54,7 @@ function Navbar({loading}) {
      
       <div
         className={`navbar py-3 px-5 flex items-center justify-between
-        md:sticky md:top-5 md:z-40
+        md:sticky md:top-5 md:z-40 fixed z-40
         w-[95%] md:w-[97%] mx-auto
         mt-2 md:mt-0
         transition-all duration-300 rounded-3xl 

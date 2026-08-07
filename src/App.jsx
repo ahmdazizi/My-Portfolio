@@ -20,7 +20,7 @@ function App() {
   return (
     <>
     <div
-  className="hero mx-2 my-3 md:mx-10 grid md:grid-cols-2 items-center md:my-8 xl:gap-0 gap-6 grid-cols-1 max-w-screen min-h-screen"
+  className="hero mx-2 my-3 md:mx-10 grid md:grid-cols-2 items-center md:my-10 xl:gap-0 gap-6 grid-cols-1 max-w-screen min-h-screen"
 >
   {/* Kolom kiri */}
   <div className="animate__animated animate__fadeInUp animate__delay-3s">
@@ -29,7 +29,7 @@ function App() {
             <span
               className="
               inline-flex items-center gap-3
-              px-5 py-3 mb-3
+              px-5 py-3 mb-3 mt-20
               rounded-2xl
               bg-black
               text-white
@@ -316,7 +316,7 @@ function App() {
 </div>
 
     {/* tentang */}
-    <div className="tentang py-5 scroll-mt-10" id="tentang">
+    <div className="tentang py-8 mt-10 `scroll-mt-15" id="tentang">
       <div className="md:mx-4 md:p-7 text-black dark:text-white" data-aos="fade-up" data-aos-duration="1000">
            <h1
             className="
@@ -362,7 +362,7 @@ function App() {
         </p>
       </div>
     </div>
-    <div className="flex gap-5 p-8 border-b  border-gray-200 dark:border-white">
+    <div className="flex gap-5 p-8 border-b border-gray-200 dark:border-white">
       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-black dark:border dark:border-white dark:text-white">
         <ChartColumnIncreasing size={24} strokeWidth={2} />
       </div>
@@ -375,7 +375,7 @@ function App() {
       </div>
     </div>
 
-    <div className="flex gap-5 p-8 md:border-r border-gray-200 dark:border-white">
+    <div className="flex gap-5 p-8 border-b md:border-b-0 md:border-r border-gray-200 dark:border-white">
     <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-black dark:border dark:border-white dark:text-white">
         <MapPin size={24} strokeWidth={2} />
       </div>
@@ -387,7 +387,7 @@ function App() {
         </p>
       </div>
     </div>
-    <div className="flex gap-5 p-8 border-gray-200 dark:border-white">
+    <div className="flex gap-5 p-8 border-b md:border-b-0 rounded-3xl border-gray-200 dark:border-white">
       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-100 dark:bg-black dark:border dark:border-white dark:text-white">
         <BriefcaseBusiness size={24} strokeWidth={2} />
       </div>
@@ -424,7 +424,7 @@ function App() {
     </div>
     {/* end tentang */}
     {/* proyek */}
-    <div className="proyek md:mt-32 mt-20 py-10 md:mx-10 scroll-mt-20"id="proyek">
+    <div className="proyek md:mt-32 mt-12 py-10 md:mx-10 scroll-mt-20"id="proyek">
       <h1 className="text-center md:text-4xl/snug text-3xl/snug font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Proyek</h1>
       <p className="md:text-center text-justify text-base/loose oppacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Beberapa proyek yang telah saya kembangkan sebagai bagian dari perjalanan
       belajar dan pengalaman di bidang teknologi.</p>
@@ -650,7 +650,7 @@ function App() {
     {/* end sertifikat */}
 
     {/* Kontak */}
-    <div className="kontak mt-32 px-4 sm:px-10 scroll-mt-20" id="kontak">
+    <div className="kontak mt-20 px-4 sm:px-10 scroll-mt-20" id="kontak">
   <h1 className="md:text-4xl text-3xl font-bold text-center mb-2" data-aos="fade-up" data-aos-duration="1000">Kontak</h1>
   <p className="text-sm sm:text-base text-center opacity-60 mb-10" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     Mari terhubung dengan saya
