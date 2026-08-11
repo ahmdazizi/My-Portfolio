@@ -20,11 +20,11 @@ function App() {
   return (
     <>
     <div
-  className="hero mx-2 my-3 md:mx-10 grid md:grid-cols-2 items-center md:my-10 xl:gap-0 gap-6 grid-cols-1 max-w-screen min-h-screen"
+  className="hero mx-2 my-3 md:mx-10 grid md:grid-cols-2 items-center md:my-0 xl:gap-0 gap-6 grid-cols-1 max-w-screen min-h-screen"
 >
   {/* Kolom kiri */}
   <div className="animate__animated animate__fadeInUp animate__delay-3s">
-  <div className=" mb-16 mt-4">
+  <div className=" mb-16 mt-5 md:mt-0">
   <div>
             <span
               className="
