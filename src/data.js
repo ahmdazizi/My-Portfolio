@@ -119,7 +119,9 @@ import Proyek5_2 from "/assets/proyek/proyek5_2.jpg";
 import Proyek5_3 from "/assets/proyek/proyek5_3.jpg";
 import Proyek5_4 from "/assets/proyek/proyek5_4.png";
 import Proyek5_5 from "/assets/proyek/proyek5_5.png";
-
+import Proyek6 from "/assets/proyek/proyek6.png";
+import Proyek6_1 from "/assets/proyek/proyek6_1.png";
+import Proyek6_2 from "/assets/proyek/proyek6_2.png";
 
 export const listProyek = [
   {
@@ -211,6 +213,23 @@ export const listProyek = [
     github: "https://github.com/ahmdazizi/Baking-With-Amanda.git",
     gdrive:"https://drive.google.com/file/d/1bGufz5lv8yjICl0yrI5p2Lpih4ZF_-_D/view?usp=sharing",
     dad: "600",
+  },
+  {
+    id: 6,
+    thumbnail: Proyek6,
+    gambar: [ Proyek6_1, Proyek6_2],
+    nama: "Website Portofolio",
+   desk: "Website personal portfolio yang dirancang untuk menampilkan profil, keahlian, pengalaman, dan berbagai proyek yang telah dikerjakan. Dibangun dengan React.js dan Tailwind CSS dengan desain modern, responsif, dan interaktif.",
+    tools: ["ReactJS", "TailwindCSS"],
+    fitur: [
+      "Informasi Pribadi",
+      "Informasi Pendidikan",
+      "Informasi Pengalaman",
+      "Informasi Portofolio",
+    ],
+    github: "https://github.com/ahmdazizi/My-Portfolio.git",
+    gdrive:"https://my-portfolio-ahmadazizi.vercel.app/",
+    dad: "700",
   },
   
 ];
