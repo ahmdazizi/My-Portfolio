@@ -236,7 +236,7 @@ export const listProyek = [
 
 import sertifikat_it from "/assets/sertifikat/Serifikasi_IT.jpg";
 import sertifikat_bnsp from "/assets/sertifikat/Sertifikat_bnsp.png";
-import sertifikat_bnsp2 from "/assets/sertifikat/Sertifikat_bnsp2.png";
+import sertifikat_bnsp2 from "/assets/sertifikat/Serifikat_bnsp2.png";
 import sertifikat_maganghub from "/assets/sertifikat/Sertifikat_MagangHub.jpg";
 import sertifikat_msib from "/assets/sertifikat/Sertifikat_msib.jpg";
 
