@@ -236,6 +236,7 @@ export const listProyek = [
 
 import sertifikat_it from "/assets/sertifikat/Serifikasi_IT.jpg";
 import sertifikat_bnsp from "/assets/sertifikat/Sertifikat_bnsp.png";
+import sertifikat_bnsp2 from "/assets/sertifikat/Sertifikat_bnsp2.png";
 import sertifikat_maganghub from "/assets/sertifikat/Sertifikat_MagangHub.jpg";
 import sertifikat_msib from "/assets/sertifikat/Sertifikat_msib.jpg";
 
@@ -263,5 +264,11 @@ export const certificates = [
     image: sertifikat_maganghub,
     issuer: "Kemnaker",
     date: "24 Mei 2026",
+  },
+  {
+    title: "Asisten Pengembang Web",
+    image: sertifikat_bnsp2,
+    issuer: "BNSP",
+    date: "29 Juni 2026",
   },
 ];
